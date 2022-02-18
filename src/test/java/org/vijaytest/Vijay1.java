@@ -27,7 +27,12 @@ public static void main(String[] args) throws IOException {
 			System.out.println(c);
 			
 			CellType celltype = c.getCellType();
+			System.out.println("Hello");
+
 			System.out.println("java");
+
+			
+
 			switch (celltype) {
 			
 			case STRING:
