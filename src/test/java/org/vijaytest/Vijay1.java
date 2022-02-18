@@ -11,6 +11,7 @@ import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.util.SystemOutLogger;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Vijay1 {
@@ -27,6 +28,11 @@ public static void main(String[] args) throws IOException {
 			
 			CellType celltype = c.getCellType();
 			System.out.println("Hello");
+
+			System.out.println("java");
+
+			
+
 			switch (celltype) {
 			
 			case STRING:
